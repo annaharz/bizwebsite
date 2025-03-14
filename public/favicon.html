@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favicon Generator</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    canvas {
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #D8C7FF;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lisa Scct Favicon Generator</h1>
+  <canvas id="favicon" width="64" height="64"></canvas>
+  <button id="download">Download favicon.ico</button>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const canvas = document.getElementById('favicon');
+      const ctx = canvas.getContext('2d');
+      
+      // Set background color (white)
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, 64, 64);
+      
+      // Draw a rounded rectangle background
+      const radius = 12;
+      ctx.fillStyle = '#D8C7FF'; // Primary lavender color
+      
+      // Draw rounded rectangle manually
+      ctx.beginPath();
+      ctx.moveTo(4 + radius, 4);
+      ctx.lineTo(60 - radius, 4);
+      ctx.arcTo(60, 4, 60, 4 + radius, radius);
+      ctx.lineTo(60, 60 - radius);
+      ctx.arcTo(60, 60, 60 - radius, 60, radius);
+      ctx.lineTo(4 + radius, 60);
+      ctx.arcTo(4, 60, 4, 60 - radius, radius);
+      ctx.lineTo(4, 4 + radius);
+      ctx.arcTo(4, 4, 4 + radius, 4, radius);
+      ctx.closePath();
+      ctx.fill();
+      
+      // Draw the letters "L" and "S"
+      ctx.fillStyle = '#ffffff'; // White text
+      ctx.font = 'bold 32px Arial';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('LS', 32, 32);
+      
+      // Download button functionality
+      document.getElementById('download').addEventListener('click', function() {
+        // Convert canvas to blob
+        canvas.toBlob(function(blob) {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'favicon.ico';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }, 'image/x-icon');
+      });
+    });
+  </script>
+</body>
+</html> 
