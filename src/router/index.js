@@ -37,10 +37,16 @@ const routes = [
     name: 'Impressum',
     component: () => import('../views/Impressum.vue'),
   },
+  // Catch-all route for 404
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue'),
+  },
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

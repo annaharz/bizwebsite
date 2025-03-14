@@ -1,4 +1,4 @@
-# Lisa Tattoo Website
+# Lisa Scct Tattoo Website
 
 A modern, responsive website for a tattoo artist based in Frankfurt, Germany. The website showcases the artist's portfolio, services, and provides contact information for potential clients.
 
@@ -35,6 +35,39 @@ pnpm build
 pnpm preview
 ```
 
+## Deployment to GitHub Pages
+
+This project is configured to deploy to GitHub Pages. You can deploy it in two ways:
+
+### Automatic Deployment
+
+The project is set up with GitHub Actions to automatically deploy to GitHub Pages when changes are pushed to the main branch.
+
+### Manual Deployment
+
+You can also deploy manually using the following command:
+
+```bash
+pnpm deploy
+```
+
+This will build the project and push it to the `gh-pages` branch, which is configured to serve the website.
+
+## Custom Domain
+
+The website is configured to use the custom domain `lisascct.com`. To set this up:
+
+1. Purchase the domain from a domain registrar
+2. Configure the DNS settings to point to GitHub Pages:
+   - Add an A record pointing to GitHub Pages IP addresses:
+     - 185.199.108.153
+     - 185.199.109.153
+     - 185.199.110.153
+     - 185.199.111.153
+   - Add a CNAME record for `www` pointing to `username.github.io`
+
+3. In the GitHub repository settings, under "Pages", add your custom domain and enable HTTPS
+
 ## Folder Structure
 
 - `src/` - Source files
@@ -48,6 +81,10 @@ pnpm preview
   - `views/` - Vue views/pages
   - `router/` - Vue Router configuration
 - `public/` - Static files
+  - `CNAME` - Custom domain configuration
+  - `404.html` - Custom 404 page for SPA routing
+  - `robots.txt` - Instructions for search engine crawlers
+  - `sitemap.xml` - Site structure for search engines
 
 ## Adding Images
 
