@@ -26,7 +26,10 @@
               Hier bekommst du die Gelegenheit, etwas mehr über mich zu erfahren. Ich bin Tätowiererin aus Frankfurt und freue mich sehr, dass du hier bist!
             </p>
             <p class="text-lg text-gray-700 leading-relaxed mt-4">
-              Mit einem Hintergrund in der Physiotherapie habe ich ein tiefes Verständnis für den menschlichen Körper, was mir ermöglicht, jedes Tattoo mit einem Fokus auf sowohl Kunstfertigkeit als auch Komfort zu gestalten. Mein Ziel ist es, einen sicheren, einladenden Raum zu schaffen, in dem du dich während deiner Tattoo-Erfahrung entspannt und sicher fühlen kannst.
+              Mit einem Hintergrund in der <strong>Physiotherapie</strong> habe ich ein tiefes Verständnis für den menschlichen Körper, was mir ermöglicht, jedes Tattoo mit einem Fokus auf sowohl Kunstfertigkeit als auch Komfort zu gestalten. 
+            </p>
+            <p class="text-lg text-gray-700 leading-relaxed mt-4">
+              Mein Ziel ist es, einen <strong>sicheren, einladenden Raum</strong> zu schaffen, in dem du dich während deiner Tattoo-Erfahrung entspannt und sicher fühlen kannst.
             </p>
           </div>
         </div>
@@ -40,7 +43,7 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Ich freue mich von dir zu hören.
         </p>
-        <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
+        <router-link to="/contact" class="btn btn-white text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

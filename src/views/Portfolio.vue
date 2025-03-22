@@ -7,26 +7,12 @@
       </div>
     </section>
     
-    <!-- Portfolio Introduction -->
-    <section class="section bg-white">
-      <div class="container-custom">
-        <div class="max-w-3xl mx-auto text-center">
-          <p class="text-lg text-gray-700 leading-relaxed mb-8">
-            Meine Priorität liegt darin, deinen individuellen Tattoo Wunsch zu verstehen und ihn gemeinsam umzusetzen. Ich beschränke mich nicht auf einen bestimmten Stil, eine Farbpalette oder Motive. Bitte fühl dich frei, dich so offen und kreativ wie möglich auszudrücken!
-          </p>
-          <p class="text-lg text-gray-700 leading-relaxed">
-            Ich poste viele meiner Werke auf Instagram, das sind neben Tattoos auch Gemälde und Fotografien, also schau gerne dort vorbei. Es ist ebenfalls eine einfache Möglichkeit, mit mir in Kontakt zu treten.
-          </p>
-        </div>
-      </div>
-    </section>
-    
     <!-- Portfolio Gallery -->
     <section class="section bg-gray-50">
       <div class="container-custom">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Portfolio Item 1 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio1.jpg" 
               alt="Heilende Hände Tattoo" 
@@ -34,14 +20,14 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Dieses Tattoo hat für mich eine besondere Bedeutung, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
+              <p class="text-gray-600 leading-relaxed">
+                Dieses Tattoo hat für mich eine <strong>besondere Bedeutung</strong>, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
               </p>
             </div>
           </div>
           
           <!-- Portfolio Item 2 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio2.jpg" 
               alt="Farbakzente Tattoo" 
@@ -49,14 +35,14 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner Lieblingsmotive, das ich auch sehr gerne mehr tätowieren möchte.
+              <p class="text-gray-600 leading-relaxed">
+                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner <strong>Lieblingsmotive</strong>, das ich auch sehr gerne mehr tätowieren möchte.
               </p>
             </div>
           </div>
           
           <!-- Portfolio Item 3 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio3.jpg" 
               alt="Weitere Farbakzente Tattoo" 
@@ -64,8 +50,8 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Farbe kann bewusst eingesetzt werden, um Akzente zu setzen oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
+              <p class="text-gray-600 leading-relaxed">
+                Farbe kann bewusst eingesetzt werden, um <strong>Akzente zu setzen</strong> oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
               </p>
             </div>
           </div>
@@ -86,7 +72,7 @@
             
             <!-- Instagram Feed Preview -->
             <div class="p-4">
-              <p class="text-gray-600">
+              <p class="text-gray-600 leading-relaxed">
                 Mein vollständiges Portfolio ist auf Instagram zu sehen. Dort findest du auch verschiedene "Wanna Dos" – Designs, die ich erstellt habe und die ich gerne in der gleichen Version oder auch angepasst tätowieren würde.
               </p>
               <div class="mt-4 text-center">
@@ -103,14 +89,28 @@
       </div>
     </section>
     
+    <!-- Portfolio Introduction (Moved below gallery) -->
+    <section class="section bg-white">
+      <div class="container-custom">
+        <div class="max-w-3xl mx-auto">
+          <p class="text-quote mx-auto text-lg text-gray-600 pl-4 border-l-4 border-accent italic">
+            Meine Priorität liegt darin, deinen individuellen Tattoo Wunsch zu verstehen und ihn gemeinsam umzusetzen. Ich beschränke mich nicht auf einen bestimmten Stil, eine Farbpalette oder Motive. Bitte fühl dich frei, dich so offen und kreativ wie möglich auszudrücken!
+          </p>
+          <p class="text-quote mx-auto text-lg text-gray-600 pl-4 border-l-4 border-accent italic mt-8">
+            Ich poste viele meiner Werke auf Instagram, das sind neben Tattoos auch Gemälde und Fotografien, also schau gerne dort vorbei. Es ist ebenfalls eine einfache Möglichkeit, mit mir in Kontakt zu treten.
+          </p>
+        </div>
+      </div>
+    </section>
+    
     <!-- CTA Section -->
-    <section class="section bg-accent text-white">
+    <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Ich freue mich von dir zu hören.
         </p>
-        <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
+        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

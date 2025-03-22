@@ -7,21 +7,6 @@
       </div>
     </section>
     
-    <!-- Collaboration Introduction -->
-    <section class="section bg-white">
-      <div class="container-custom">
-        <div class="max-w-3xl mx-auto text-center">
-          <p class="text-lg text-gray-700 leading-relaxed">
-            Kunst bildet für mich einen elementaren Bestandteil des Tätowierens.
-            Seit Jahren versuchen Tätowierer*innen offiziell als Kunstschaffende anerkannt zu werden, leider gibt es ohne die offizielle Regelung einerseits keinen Zugang zu wichtigen Sozialleistungen, andererseits bleibt das Bild des Tätowierens als 'Hinterhof' Kunst bestehen.
-          </p>
-          <p class="text-lg text-gray-700 leading-relaxed mt-4">
-            Um ein Zeichen zu setzen, habe ich es mir als Ziel gemacht, Tätowieren und Kunst zu vereinen - im Rahmen von Kollaborationen mit Künstler*innen aus anderen Disziplinen, tätowiere ich in Galerien und Ausstellungen.
-          </p>
-        </div>
-      </div>
-    </section>
-    
     <!-- Collaboration Gallery -->
     <section class="section bg-gray-50">
       <div class="container-custom">
@@ -53,7 +38,7 @@
         <h2 class="section-title">Kollaborative Visionen</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <div class="h-96 overflow-hidden">
               <OptimizedImage 
                 src="collaboration/Kunst3.jpg" 
@@ -64,13 +49,13 @@
             </div>
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Galerie-Performance</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 leading-relaxed">
                 Live-Tätowieren während einer Kunstausstellung, bei der Besucher*innen den kreativen Prozess beobachten konnten.
               </p>
             </div>
           </div>
           
-          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <div class="h-96 overflow-hidden">
               <OptimizedImage 
                 src="collaboration/flyer.jpg" 
@@ -81,13 +66,13 @@
             </div>
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Kunst-Kollaboration</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 leading-relaxed">
                 Gemeinsame Gestaltung von Tattoo-Designs mit bildenden Künstler*innen, die ihre einzigartigen Stile einbringen.
               </p>
             </div>
           </div>
           
-          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
+          <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <div class="h-96 overflow-hidden">
               <OptimizedImage 
                 src="collaboration/Kunst4.jpg" 
@@ -98,7 +83,7 @@
             </div>
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Kunstinstallation</h3>
-              <p class="text-gray-600">
+              <p class="text-gray-600 leading-relaxed">
                 Integration von Tattoo-Kunst in größere Kunstinstallationen, die verschiedene Medien und Ausdrucksformen verbinden.
               </p>
             </div>
@@ -107,14 +92,29 @@
       </div>
     </section>
     
+    <!-- Collaboration Introduction (Moved after galleries) -->
+    <section class="section bg-gray-50">
+      <div class="container-custom">
+        <div class="max-w-3xl mx-auto">
+          <p class="text-quote mx-auto text-lg text-gray-600 pl-4 border-l-4 border-accent italic">
+            Kunst bildet für mich einen elementaren Bestandteil des Tätowierens.
+            Seit Jahren versuchen Tätowierer*innen offiziell als Kunstschaffende anerkannt zu werden, leider gibt es ohne die offizielle Regelung einerseits keinen Zugang zu wichtigen Sozialleistungen, andererseits bleibt das Bild des Tätowierens als 'Hinterhof' Kunst bestehen.
+          </p>
+          <p class="text-quote mx-auto text-lg text-gray-600 pl-4 border-l-4 border-accent italic mt-8">
+            Um ein Zeichen zu setzen, habe ich es mir als Ziel gemacht, Tätowieren und Kunst zu vereinen - im Rahmen von Kollaborationen mit Künstler*innen aus anderen Disziplinen, tätowiere ich in Galerien und Ausstellungen.
+          </p>
+        </div>
+      </div>
+    </section>
+    
     <!-- Collaboration CTA -->
-    <section class="section bg-accent text-white">
+    <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Interesse an einer Zusammenarbeit?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Bist du Künstler*in oder Galerist*in mit Interesse an einer Zusammenarbeit, melde dich gerne bei mir!
         </p>
-        <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
+        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

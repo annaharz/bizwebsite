@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: '#D8C7FF',
         secondary: '#e2e8f0',
-        accent: '#D8C7FF',
+        accent: '#6B46C1',
+        'accent-dark': '#553C9A',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
@@ -18,4 +19,4 @@ module.exports = {
     },
   },
   plugins: [],
-} 
+}

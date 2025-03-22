@@ -41,7 +41,7 @@
       </div>
       
       <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
-        <p>&copy; {{ new Date().getFullYear() }} Lisa Scct. Alle Rechte vorbehalten.</p>
+        <p>&copy; {{ new Date().getFullYear() }} Lisa Litovkin. Alle Rechte vorbehalten.</p>
         <p class="mt-2">
           <router-link to="/impressum" class="text-gray-400 hover:text-white transition-colors duration-300">
             Impressum

@@ -10,37 +10,57 @@
   }
   
   body {
-    @apply bg-gray-50 text-gray-800;
+    @apply bg-gray-50 text-gray-800 font-sans text-base leading-relaxed;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif font-bold;
+    @apply font-serif font-bold tracking-tight;
   }
   
   h1 {
-    @apply text-4xl md:text-5xl;
+    @apply text-4xl md:text-5xl leading-tight mb-6;
   }
   
   h2 {
-    @apply text-3xl md:text-4xl;
+    @apply text-3xl md:text-4xl leading-snug mb-5;
   }
   
   h3 {
-    @apply text-2xl md:text-3xl;
+    @apply text-2xl md:text-3xl leading-snug mb-4;
   }
   
   p {
-    @apply my-4;
+    @apply my-4 leading-relaxed text-gray-700;
   }
 }
 
 @layer components {
   .btn {
-    @apply px-6 py-2 rounded-md transition-all duration-300 inline-block;
+    @apply px-6 py-3 rounded-md transition-all duration-300 inline-block font-medium shadow-sm;
   }
   
   .btn-primary {
-    @apply bg-accent text-white hover:bg-accent/90;
+    @apply bg-primary text-gray-800 hover:bg-primary/80 focus:ring-2 focus:ring-primary/50 focus:ring-offset-2;
+  }
+  
+  /* Accent button style with orange accent color */
+  .btn-accent {
+    @apply bg-accent text-white hover:bg-accent-dark focus:ring-2 focus:ring-accent/50 focus:ring-offset-2;
+  }
+  
+  /* Secondary button style with improved contrast */
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300 focus:ring-2 focus:ring-gray-300 focus:ring-offset-2;
+  }
+  
+  /* Purple button style with primary color */
+  .btn-purple {
+    @apply bg-primary text-gray-800 hover:bg-primary/80 focus:ring-2 focus:ring-primary/50 focus:ring-offset-2;
+  }
+  
+  /* White button style with accent text color for CTA sections */
+  .btn-white {
+    @apply bg-white text-accent hover:bg-gray-100 hover:text-accent-dark focus:ring-2 focus:ring-accent/50 focus:ring-offset-2;
   }
   
   .container-custom {
@@ -52,6 +72,35 @@
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+    @apply text-3xl md:text-4xl font-bold mb-8 text-center tracking-tight leading-tight;
+  }
+  
+  /* Text styling enhancements */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+  
+  .text-emphasis {
+    @apply font-medium text-black;
+  }
+  
+  .text-quote {
+    @apply pl-4 border-l-4 border-accent italic text-lg text-gray-600;
+  }
+  
+  .text-lead {
+    @apply text-xl md:text-2xl font-light leading-relaxed text-gray-600;
+  }
+  
+  .text-card {
+    @apply text-base leading-relaxed text-gray-600 hover:text-gray-900 transition-colors duration-300;
+  }
+  
+  .text-animate-on-hover {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .text-animate-on-hover:hover {
+    @apply text-accent transform translate-x-1;
   }
 } 

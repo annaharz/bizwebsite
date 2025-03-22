@@ -1,14 +1,14 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative bg-gray-100 py-20 md:py-32">
+    <section class="relative bg-gray-100 h-screen flex items-center">
       <div class="container-custom">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div class="order-2 md:order-1">
             <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               Lisa Scct
             </h1>
-            <div class="text-xl md:text-2xl text-gray-600 mb-8">
+            <div class="text-lead mb-8">
               <p class="mb-1">Tattoos in einem Safe Space</p>
               <p>als entschleunigte Erfahrung.</p>
             </div>
@@ -16,7 +16,7 @@
               <router-link to="/portfolio" class="btn btn-primary">
                 Portfolio ansehen
               </router-link>
-              <router-link to="/contact" class="btn bg-gray-200 text-gray-800 hover:bg-gray-300">
+              <router-link to="/contact" class="btn btn-secondary">
                 Kontakt
               </router-link>
             </div>
@@ -37,8 +37,8 @@
     <section class="section bg-white">
       <div class="container-custom">
         <div class="max-w-3xl mx-auto text-center">
-          <p class="text-lg text-gray-700 leading-relaxed">
-            Tätowieren als Kunstform ist meine große Leidenschaft. Dabei lege ich hohen Wert auf einen offenen Austausch. Es ist mir wichtig, dass wir uns die Zeit nehmen, die wir brauchen, um diese Erfahrung aus dem Trubel des Alltags heraus entschleunigt zu gestalten. Wenn du dich für mich als Künstlerin entscheidest, bedeutet das, einen sicheren Raum zu erleben, um den gesamten Prozess in vollen Zügen genießen zu können.
+          <p class="text-quote mx-auto border-l-0 md:border-l-4 pl-0 md:pl-6 text-xl">
+            Tätowieren als Kunstform ist meine <span class="text-emphasis">große Leidenschaft</span>. Dabei lege ich hohen Wert auf einen offenen Austausch. Es ist mir wichtig, dass wir uns die Zeit nehmen, die wir brauchen, um diese Erfahrung aus dem Trubel des Alltags heraus <strong>entschleunigt zu gestalten</strong>. Wenn du dich für mich als Künstlerin entscheidest, bedeutet das, einen sicheren Raum zu erleben, um den gesamten Prozess in vollen Zügen genießen zu können.
           </p>
         </div>
       </div>
@@ -48,13 +48,13 @@
     <section class="section bg-gray-50">
       <div class="container-custom">
         <h2 class="section-title">Tattoo Portfolio</h2>
-        <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+        <p class="text-lead text-center max-w-3xl mx-auto mb-12">
           Ich habe ein paar Beispiele ausgewählt, um dir ein Gefühl für meine Arbeiten zu vermitteln. Meine Priorität liegt jedoch darin, deinen individuellen Tattoo Wunsch zu verstehen und ihn gemeinsam umzusetzen.
         </p>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Portfolio Item 1 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio1.jpg" 
               alt="Heilende Hände Tattoo" 
@@ -62,14 +62,14 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Dieses Tattoo hat für mich eine besondere Bedeutung, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
+              <p class="text-card">
+                Dieses Tattoo hat für mich eine <span class="text-emphasis">besondere Bedeutung</span>, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
               </p>
             </div>
           </div>
           
           <!-- Portfolio Item 2 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio2.jpg" 
               alt="Farbakzente Tattoo" 
@@ -77,14 +77,14 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner Lieblingsmotive, das ich auch sehr gerne mehr tätowieren möchte.
+              <p class="text-card">
+                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner <span class="text-emphasis">Lieblingsmotive</span>, das ich auch sehr gerne mehr tätowieren möchte.
               </p>
             </div>
           </div>
           
           <!-- Portfolio Item 3 -->
-          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <OptimizedImage 
               src="portfolio/Portfolio3.jpg" 
               alt="Weitere Farbakzente Tattoo" 
@@ -92,15 +92,15 @@
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <p class="text-gray-600">
-                Farbe kann bewusst eingesetzt werden, um Akzente zu setzen oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
+              <p class="text-card">
+                Farbe kann bewusst eingesetzt werden, um <strong>Akzente zu setzen</strong> oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
               </p>
             </div>
           </div>
         </div>
         
         <div class="text-center mt-12">
-          <router-link to="/portfolio" class="btn btn-primary">
+          <router-link to="/portfolio" class="btn btn-primary text-animate-on-hover">
             Vollständiges Portfolio ansehen
           </router-link>
         </div>
@@ -108,13 +108,13 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="section bg-accent text-white">
+    <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Ich freue mich von dir zu hören.
         </p>
-        <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
+        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

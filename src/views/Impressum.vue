@@ -10,21 +10,34 @@
     <!-- Impressum Content -->
     <section class="section bg-white">
       <div class="container-custom">
-        <div class="max-w-3xl mx-auto text-center">
-          <p class="text-lg text-gray-700 mb-8">
-            Das Impressum ist als PDF-Dokument verfügbar. Bitte klicken Sie auf den Button unten, um es zu öffnen.
-          </p>
+        <div class="max-w-3xl mx-auto">
+          <div class="mb-8">
+            <p>Lisa Litovkin</p>
+            <p>Tätowiererin</p>
+            <p>Koselstraße 9</p>
+            <p>60318 Frankfurt am Main</p>
+          </div>
           
-          <a 
-            :href="pdfUrl" 
-            target="_blank" 
-            class="btn bg-accent text-white hover:bg-accent/90 transition-colors duration-300 inline-flex items-center"
-          >
-            <span>Impressum öffnen</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
+          <h2 class="text-2xl font-bold mb-6">Kontakt</h2>
+          <div class="mb-8">
+            <p>E-Mail: lisa.scct.art@gmail.com</p>
+          </div>
+          
+          <h2 class="text-2xl font-bold mb-6">Gewerbeanmeldung</h2>
+          <div class="mb-8">
+            <p>Die Gewerbeerlaubnis nach § 14 oder § 55 GewO wurde am 01.05.2024 von folgender Stelle erteilt: Stadt Frankfurt am Main.</p>
+          </div>
+          
+          <h2 class="text-2xl font-bold mb-6">EU-Streitschlichtung</h2>
+          <div class="mb-8">
+            <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" class="text-accent hover:underline">https://ec.europa.eu/consumers/odr/</a>.</p>
+            <p>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+          </div>
+          
+          <h2 class="text-2xl font-bold mb-6">Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
+          <div class="mb-8">
+            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -33,11 +46,6 @@
 
 <script>
 export default {
-  name: 'Impressum',
-  computed: {
-    pdfUrl() {
-      return new URL('../assets/impressum_www_lisascct_com_de.pdf', import.meta.url).href;
-    }
-  }
+  name: 'Impressum'
 }
 </script> 
