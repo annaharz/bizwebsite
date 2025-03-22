@@ -9,9 +9,8 @@
               Lisa Scct
             </h1>
             <div class="text-xl md:text-2xl text-gray-600 mb-8">
-              <p class="mb-1">Ich biete individuelle Tattoos</p>
-              <p class="mb-1">als entschleunigte Erfahrung</p>
-              <p>in einem sicheren Raum an.</p>
+              <p class="mb-1">Tattoos in einem Safe Space</p>
+              <p>als entschleunigte Erfahrung.</p>
             </div>
             <div class="flex flex-col sm:flex-row gap-4">
               <router-link to="/portfolio" class="btn btn-primary">
@@ -23,11 +22,11 @@
             </div>
           </div>
           
-          <div class="order-1 md:order-2 overflow-hidden rounded-lg shadow-lg border-4 border-primary p-1">
+          <div class="order-1 md:order-2 overflow-hidden rounded-lg">
             <OptimizedImage 
-              src="backgrounds/landing.JPG" 
+              src="backgrounds/profilbild.jpg" 
               alt="Lisa Tattoo Artist" 
-              className="w-full h-auto object-cover rounded-lg" 
+              className="w-full h-auto object-cover" 
             />
           </div>
         </div>
@@ -37,9 +36,9 @@
     <!-- Introduction Section -->
     <section class="section bg-white">
       <div class="container-custom">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
           <p class="text-lg text-gray-700 leading-relaxed">
-            Tätowieren als Kunstform ist meine große Leidenschaft. Dabei lege ich hohen Wert auf einen offenen Austausch. Es ist mir wichtig, uns die Zeit zu nehmen, die wir brauchen, um diese Erfahrung aus dem Trubel des Alltags heraus entschleunigt zu gestalten. Wenn du dich für mich als Künstlerin entscheidest, bedeutet das, einen sicheren Raum zu erleben, um den gesamten Prozess in vollen Zügen genießen zu können.
+            Tätowieren als Kunstform ist meine große Leidenschaft. Dabei lege ich hohen Wert auf einen offenen Austausch. Es ist mir wichtig, dass wir uns die Zeit nehmen, die wir brauchen, um diese Erfahrung aus dem Trubel des Alltags heraus entschleunigt zu gestalten. Wenn du dich für mich als Künstlerin entscheidest, bedeutet das, einen sicheren Raum zu erleben, um den gesamten Prozess in vollen Zügen genießen zu können.
           </p>
         </div>
       </div>
@@ -54,47 +53,47 @@
         </p>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Portfolio Item 1 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
             <OptimizedImage 
-              src="portfolio/gingko.jpg" 
-              alt="Ginkgo-Blatt Tattoo" 
-              className="h-64" 
-              :useBackgroundImage="true" 
-            />
-            <div class="p-6">
-              <h3 class="text-xl font-bold mb-2">Ginkgo-Blatt</h3>
-              <p class="text-gray-600">
-                Manche Tattoo-Reisen beginnen klein. Wie dieses Ginkgo-Blatt. Die Person wählte dieses Motiv aufgrund der Schönheit des Blattes selbst sowie seiner Symbolik.
-              </p>
-            </div>
-          </div>
-          
-          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-            <OptimizedImage 
-              src="portfolio/Pfingstrosen schwarz.jpg" 
+              src="portfolio/Portfolio1.jpg" 
               alt="Heilende Hände Tattoo" 
-              className="h-64" 
+              className="h-80" 
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <h3 class="text-xl font-bold mb-2">Heilende Hände</h3>
               <p class="text-gray-600">
-                Dieses Tattoo hat für mich eine besondere Bedeutung, da die Kundin im Gesundheitswesen tätig ist. Ich fühle mich geehrt, einen Arm zu tötowieren, der dazu beiträgt, Menschen zu heilen.
+                Dieses Tattoo hat für mich eine besondere Bedeutung, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
               </p>
             </div>
           </div>
           
-          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+          <!-- Portfolio Item 2 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
             <OptimizedImage 
-              src="portfolio/rote pfingstrose.jpg" 
+              src="portfolio/Portfolio2.jpg" 
               alt="Farbakzente Tattoo" 
-              className="h-64" 
+              className="h-80" 
               :useBackgroundImage="true" 
             />
             <div class="p-6">
-              <h3 class="text-xl font-bold mb-2">Farbakzente</h3>
               <p class="text-gray-600">
-                Manchmal ist es die beste Entscheidung, Farbe gezielt einzusetzen, um Akzente zu setzen oder Zartheit zu erzielen.
+                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner Lieblingsmotive, das ich auch sehr gerne mehr tätowieren möchte.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Portfolio Item 3 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <OptimizedImage 
+              src="portfolio/Portfolio3.jpg" 
+              alt="Weitere Farbakzente Tattoo" 
+              className="h-80" 
+              :useBackgroundImage="true" 
+            />
+            <div class="p-6">
+              <p class="text-gray-600">
+                Farbe kann bewusst eingesetzt werden, um Akzente zu setzen oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
               </p>
             </div>
           </div>
@@ -111,9 +110,9 @@
     <!-- CTA Section -->
     <section class="section bg-accent text-white">
       <div class="container-custom text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein nächstes Tattoo?</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Jede Reise ist einzigartig, und ich würde mich sehr freuen, ein Teil deiner Reise zu sein.
+          Ich freue mich von dir zu hören.
         </p>
         <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
           Kontaktiere mich

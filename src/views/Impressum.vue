@@ -10,47 +10,21 @@
     <!-- Impressum Content -->
     <section class="section bg-white">
       <div class="container-custom">
-        <div class="max-w-3xl mx-auto">
-          <h2 class="text-2xl font-bold mb-6">Angaben gemäß § 5 TMG</h2>
-          
-          <div class="mb-8">
-            <p>Lisa SCCT</p>
-            <p>Tattoo Artist</p>
-            <p>Frankfurt am Main</p>
-            <p>Deutschland</p>
-          </div>
-          
-          <h2 class="text-2xl font-bold mb-6">Kontakt</h2>
-          
-          <div class="mb-8">
-            <p>E-Mail: lisa.scct.art@gmail.com</p>
-            <p>Instagram: @lisa_scct</p>
-          </div>
-          
-          <h2 class="text-2xl font-bold mb-6">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
-          
-          <div class="mb-8">
-            <p>Lisa SCCT</p>
-            <p>Frankfurt am Main</p>
-            <p>Deutschland</p>
-          </div>
-          
-          <h2 class="text-2xl font-bold mb-6">Haftungsausschluss</h2>
-          
-          <h3 class="text-xl font-bold mb-3">Haftung für Inhalte</h3>
-          <p class="mb-4">
-            Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+        <div class="max-w-3xl mx-auto text-center">
+          <p class="text-lg text-gray-700 mb-8">
+            Das Impressum ist als PDF-Dokument verfügbar. Bitte klicken Sie auf den Button unten, um es zu öffnen.
           </p>
           
-          <h3 class="text-xl font-bold mb-3">Haftung für Links</h3>
-          <p class="mb-4">
-            Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-          </p>
-          
-          <h3 class="text-xl font-bold mb-3">Urheberrecht</h3>
-          <p class="mb-4">
-            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-          </p>
+          <a 
+            :href="pdfUrl" 
+            target="_blank" 
+            class="btn bg-accent text-white hover:bg-accent/90 transition-colors duration-300 inline-flex items-center"
+          >
+            <span>Impressum öffnen</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
       </div>
     </section>
@@ -59,6 +33,11 @@
 
 <script>
 export default {
-  name: 'Impressum'
+  name: 'Impressum',
+  computed: {
+    pdfUrl() {
+      return new URL('../assets/impressum_www_lisascct_com_de.pdf', import.meta.url).href;
+    }
+  }
 }
 </script> 

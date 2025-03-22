@@ -50,7 +50,7 @@ export default {
         { name: 'Home', path: '/' },
         { name: 'Portfolio', path: '/portfolio' },
         { name: 'Collaboration', path: '/collaboration' },
-        { name: 'Services', path: '/services' },
+        { name: 'FAQ', path: '/faq' },
         { name: 'About', path: '/about' },
         { name: 'Contact', path: '/contact' },
       ]

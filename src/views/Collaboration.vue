@@ -10,7 +10,7 @@
     <!-- Collaboration Introduction -->
     <section class="section bg-white">
       <div class="container-custom">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
           <p class="text-lg text-gray-700 leading-relaxed">
             Kunst bildet für mich einen elementaren Bestandteil des Tätowierens.
             Seit Jahren versuchen Tätowierer*innen offiziell als Kunstschaffende anerkannt zu werden, leider gibt es ohne die offizielle Regelung einerseits keinen Zugang zu wichtigen Sozialleistungen, andererseits bleibt das Bild des Tätowierens als 'Hinterhof' Kunst bestehen.
@@ -26,8 +26,13 @@
     <section class="section bg-gray-50">
       <div class="container-custom">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
-            <div class="bg-gray-300 h-96 rounded-lg shadow-md"></div>
+          <div class="h-[500px] w-full">
+            <OptimizedImage 
+              src="collaboration/Kunst1.jpg" 
+              alt="Kunst & Tattoos vereint" 
+              className="w-full h-full object-contain rounded-lg shadow-md" 
+              :useBackgroundImage="false" 
+            />
           </div>
           <div>
             <h2 class="text-3xl font-bold mb-6">Kunst & Tattoos vereint</h2>
@@ -45,11 +50,18 @@
     <!-- Past Collaborations -->
     <section class="section bg-white">
       <div class="container-custom">
-        <h2 class="section-title">Bisherige Kollaborationen</h2>
+        <h2 class="section-title">Kollaborative Visionen</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
-            <div class="h-64 bg-gray-300"></div>
+            <div class="h-96 overflow-hidden">
+              <OptimizedImage 
+                src="collaboration/Kunst3.jpg" 
+                alt="Galerie-Performance" 
+                className="w-full h-auto object-cover object-top" 
+                :useBackgroundImage="false" 
+              />
+            </div>
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Galerie-Performance</h3>
               <p class="text-gray-600">
@@ -59,9 +71,16 @@
           </div>
           
           <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
-            <div class="h-64 bg-gray-300"></div>
+            <div class="h-96 overflow-hidden">
+              <OptimizedImage 
+                src="collaboration/flyer.jpg" 
+                alt="Kunst-Kollaboration" 
+                className="w-full h-auto object-cover object-top" 
+                :useBackgroundImage="false" 
+              />
+            </div>
             <div class="p-6">
-              <h3 class="text-xl font-bold mb-2">Künstler-Kollaboration</h3>
+              <h3 class="text-xl font-bold mb-2">Kunst-Kollaboration</h3>
               <p class="text-gray-600">
                 Gemeinsame Gestaltung von Tattoo-Designs mit bildenden Künstler*innen, die ihre einzigartigen Stile einbringen.
               </p>
@@ -69,7 +88,14 @@
           </div>
           
           <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md">
-            <div class="h-64 bg-gray-300"></div>
+            <div class="h-96 overflow-hidden">
+              <OptimizedImage 
+                src="collaboration/Kunst4.jpg" 
+                alt="Kunstinstallation" 
+                className="w-full h-auto object-cover object-top" 
+                :useBackgroundImage="false" 
+              />
+            </div>
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Kunstinstallation</h3>
               <p class="text-gray-600">
@@ -97,7 +123,12 @@
 </template>
 
 <script>
+import OptimizedImage from '@/components/OptimizedImage.vue';
+
 export default {
-  name: 'Collaboration'
+  name: 'Collaboration',
+  components: {
+    OptimizedImage
+  }
 }
 </script> 

@@ -10,7 +10,7 @@
     <!-- Services Introduction -->
     <section class="section bg-white">
       <div class="container-custom">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
           <p class="text-lg text-gray-700 leading-relaxed">
             Auf dem Weg zum Tattoo begleite ich dich vom Anfang bis zum Ende: Vorbesprechung, Design, die Tattoo-Sitzung und Nachsorge. Hier findest du Antworten auf die häufigsten Fragen.
           </p>
@@ -70,7 +70,7 @@
             <h3 class="text-xl font-bold mb-3">Hast du Erfahrungen mit dem Tätowieren von BIPOC?</h3>
             <div class="text-gray-700">
               <p>
-                Ja, bisher allerdings nur vereinzelt, daher biete ich BIPOC 25% Rabatt auf meine Tattoo Preise, um mehr Erfahrung zu sammeln. Ich bin mir der Arbeitsweise auf non-white skin bewusst und habe mich viel damit beschäftigt, um auch hier dieselbe Professionalität bieten zu können.
+                Ja, bisher allerdings nur vereinzelt, daher biete ich BIPOC 10% Rabatt auf meine Tattoo Preise, um mehr Erfahrung zu sammeln. Ich bin mir der Arbeitsweise auf unterschiedlichen Hauttönen bewusst und habe mich viel damit beschäftigt, um auch hier dieselbe Professionalität bieten zu können.
               </p>
             </div>
           </div>
@@ -164,9 +164,6 @@
     <section class="section bg-accent text-white">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Hast du weitere Fragen?</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Ich freue mich von dir zu hören.
-        </p>
         <router-link to="/contact" class="btn bg-white text-accent hover:bg-gray-100">
           Kontaktiere mich
         </router-link>

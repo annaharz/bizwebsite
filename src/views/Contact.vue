@@ -13,10 +13,23 @@
         <div class="max-w-2xl mx-auto text-center">
           <h2 class="text-3xl font-bold mb-6">Kontaktiere Mich</h2>
           <p class="text-lg text-gray-700 mb-12">
-            Ich freue mich darauf, von dir zu hören! Ob du Fragen zu meinen Tattoo-Services hast, einen Termin vereinbaren möchtest oder an einer Zusammenarbeit interessiert bist - kontaktiere mich gerne über Instagram oder per Email.
+            Ich freue mich darauf, von dir zu hören! Ob du Fragen zu meinen Tattoos hast oder einen Termin vereinbaren möchtest - kontaktiere mich gerne über Instagram oder per Email.
           </p>
           
           <div class="space-y-8">
+            <!-- Email -->
+            <div class="flex flex-col items-center">
+              <div class="text-accent mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">Email</h3>
+              <a href="mailto:lisa.scct.art@gmail.com" class="text-lg text-accent hover:text-accent/80 transition-colors duration-300">
+                lisa.scct.art@gmail.com
+              </a>
+            </div>
+            
             <!-- Instagram -->
             <div class="flex flex-col items-center">
               <div class="text-accent mb-4">
@@ -30,16 +43,16 @@
               </a>
             </div>
             
-            <!-- Email -->
+            <!-- Bluesky -->
             <div class="flex flex-col items-center">
               <div class="text-accent mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm3.472 9h1.058L12 15.809 7.47 9h1.058l3.472 4.908L15.472 9z"/>
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-2">Email</h3>
-              <a href="mailto:lisa.scct.art@gmail.com" class="text-lg text-accent hover:text-accent/80 transition-colors duration-300">
-                lisa.scct.art@gmail.com
+              <h3 class="text-xl font-bold mb-2">Bluesky</h3>
+              <a href="https://bsky.app/profile/did:plc:tg4ptj7irexvy55ivt6t64sl" target="_blank" class="text-lg text-accent hover:text-accent/80 transition-colors duration-300">
+                @lisascct.bsky.social
               </a>
             </div>
           </div>

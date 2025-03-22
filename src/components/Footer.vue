@@ -2,10 +2,10 @@
   <footer class="bg-gray-800 text-white py-12">
     <div class="container-custom">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div>
+        <div class="mb-8">
           <h3 class="text-xl font-bold mb-4">Lisa Scct</h3>
           <p class="text-gray-300">
-            Ich biete individuelle Tattoos als entschleunigte Erfahrung in einem sicheren Raum an.
+            Tattoos in einem Safe Space als entschleunigte Erfahrung.
           </p>
         </div>
         
@@ -61,7 +61,7 @@ export default {
         { name: 'Home', path: '/' },
         { name: 'Portfolio', path: '/portfolio' },
         { name: 'Collaboration', path: '/collaboration' },
-        { name: 'Services', path: '/services' },
+        { name: 'FAQ', path: '/services' },
         { name: 'About', path: '/about' },
         { name: 'Contact', path: '/contact' },
       ]
