@@ -37,13 +37,13 @@
     </section>
     
     <!-- CTA Section -->
-    <section class="section bg-accent text-white">
+    <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Ich freue mich von dir zu hören.
         </p>
-        <router-link to="/contact" class="btn btn-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>
