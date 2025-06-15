@@ -164,7 +164,7 @@
     <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Hast du weitere Fragen?</h2>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

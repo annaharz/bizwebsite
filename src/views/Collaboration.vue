@@ -114,7 +114,7 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Bist du Künstler*in oder Galerist*in mit Interesse an einer Zusammenarbeit, melde dich gerne bei mir!
         </p>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

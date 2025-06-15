@@ -125,7 +125,7 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Ich freue mich von dir zu hören.
         </p>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>
