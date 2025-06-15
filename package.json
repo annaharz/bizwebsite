@@ -11,18 +11,18 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
-    "autoprefixer": "^10.4.17",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "autoprefixer": "^10.4.21",
     "canvas": "^3.1.0",
-    "gh-pages": "^6.1.1",
-    "postcss": "^8.4.35",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.5",
     "sharp-cli": "^5.1.0",
-    "tailwindcss": "^3.4.1",
-    "vite": "^5.1.4"
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.19"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
