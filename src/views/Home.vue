@@ -59,7 +59,7 @@
             />
             <div class="p-6">
               <p class="text-card">
-                Dieses Tattoo hat für mich eine <span class="text-emphasis">besondere Bedeutung</span>, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
+                Dieses Tattoo hat für mich eine besondere Bedeutung, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@
             />
             <div class="p-6">
               <p class="text-card">
-                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner <span class="text-emphasis">Lieblingsmotive</span>, das ich auch sehr gerne mehr tätowieren möchte.
+                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner Lieblingsmotive, das ich auch sehr gerne mehr tätowieren möchte.
               </p>
             </div>
           </div>
@@ -89,8 +89,9 @@
             />
             <div class="p-6">
               <p class="text-card">
-                Farbe kann bewusst eingesetzt werden, um <strong>Akzente zu setzen</strong> oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
+                Farbe kann bewusst eingesetzt werden, um Akzente zu setzen oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen.
               </p>
+              <p class="text-xs text-gray-500 mt-2">Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.</p>
             </div>
           </div>
         </div>
