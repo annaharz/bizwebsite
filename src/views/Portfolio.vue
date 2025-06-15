@@ -19,11 +19,6 @@
               className="h-80" 
               :useBackgroundImage="true" 
             />
-            <div class="p-6">
-              <p class="text-gray-600 leading-relaxed">
-                Dieses Tattoo hat für mich eine <strong>besondere Bedeutung</strong>, da die Kundin im Gesundheitswesen tätig ist und das Motiv mich an meine Zeit als Physiotherapeutin erinnert.
-              </p>
-            </div>
           </div>
           
           <!-- Portfolio Item 2 -->
@@ -34,11 +29,6 @@
               className="h-80" 
               :useBackgroundImage="true" 
             />
-            <div class="p-6">
-              <p class="text-gray-600 leading-relaxed">
-                Neben dem Tätowieren male ich auch, Vögel in Aquarellfarbe sind eins meiner <strong>Lieblingsmotive</strong>, das ich auch sehr gerne mehr tätowieren möchte.
-              </p>
-            </div>
           </div>
           
           <!-- Portfolio Item 3 -->
@@ -49,11 +39,36 @@
               className="h-80" 
               :useBackgroundImage="true" 
             />
-            <div class="p-6">
-              <p class="text-gray-600 leading-relaxed">
-                Farbe kann bewusst eingesetzt werden, um <strong>Akzente zu setzen</strong> oder Zartheit zu erzielen. In diesem Fall haben wir Rot für die Pfingstrosen ausgewählt, um einen sanften Übergang von der Haut zur Blume zu schaffen. (Der Vogel auf dem Arm und die Schrift auf der Wirbelsäule sind nicht von mir.)
-              </p>
-            </div>
+          </div>
+          
+          <!-- Portfolio Item 4 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+            <OptimizedImage 
+              src="portfolio/Portfolio4.jpg" 
+              alt="Portfolio Tattoo 4" 
+              className="h-80" 
+              :useBackgroundImage="true" 
+            />
+          </div>
+
+          <!-- Portfolio Item 5 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+            <OptimizedImage 
+              src="portfolio/Portfolio5.jpg" 
+              alt="Portfolio Tattoo 5" 
+              className="h-80" 
+              :useBackgroundImage="true" 
+            />
+          </div>
+
+          <!-- Portfolio Item 6 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+            <OptimizedImage 
+              src="portfolio/Portfolio6.jpg" 
+              alt="Portfolio Tattoo 6" 
+              className="h-80" 
+              :useBackgroundImage="true" 
+            />
           </div>
           
           <!-- Instagram Feed Card -->

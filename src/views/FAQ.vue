@@ -32,7 +32,7 @@
             <h3 class="text-xl font-bold mb-3">Wie gestalten sich deine Preise?</h3>
             <div class="text-gray-700 leading-relaxed">
               <p>
-                Mein Preis berechnet sich aus einem Stundensatz von <strong>120 €</strong> für die eigentliche Tätowierung oder einer Mindestgebühr von <strong>150 €</strong>, falls das Tattoo weniger als eine Stunde dauert. Dies liegt daran, dass ich die Zeit, die wir für die Fertigstellung des Designs benötigen, nicht bereche.
+                Mein Preis berechnet sich aus einem Stundensatz von <strong>120 €</strong> für die eigentliche Tätowierung oder einer Mindestgebühr von <strong>150 €</strong>, falls das Tattoo weniger als eine Stunde dauert. Das liegt daran, dass ich die Zeit, die wir für die Fertigstellung des Designs benötigen, nicht mit berechne.
               </p>
               <ul class="list-disc pl-5 mt-2 space-y-1">
                 <li>Mindestgebühr: <strong>150 €</strong></li>

@@ -58,7 +58,7 @@
           <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <div class="h-96 overflow-hidden">
               <OptimizedImage 
-                src="collaboration/flyer.jpg" 
+                src="collaboration/Kunst2.jpg" 
                 alt="Kunst-Kollaboration" 
                 className="w-full h-auto object-cover object-top" 
                 :useBackgroundImage="false" 
