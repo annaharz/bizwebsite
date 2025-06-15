@@ -21,15 +21,9 @@
             </div>
           </div>
           <div>
-            <h2 class="text-3xl font-bold mb-6">Hallo nochmal, ich bin Lisa</h2>
+            <h2 class="text-3xl font-bold mb-6">Hi, ich bin Lisa</h2>
             <p class="text-lg text-gray-700 leading-relaxed">
-              Hier bekommst du die Gelegenheit, etwas mehr über mich zu erfahren. Ich bin Tätowiererin aus Frankfurt und freue mich sehr, dass du hier bist!
-            </p>
-            <p class="text-lg text-gray-700 leading-relaxed mt-4">
-              Mit einem Hintergrund in der <strong>Physiotherapie</strong> habe ich ein tiefes Verständnis für den menschlichen Körper, was mir ermöglicht, jedes Tattoo mit einem Fokus auf sowohl Kunstfertigkeit als auch Komfort zu gestalten. 
-            </p>
-            <p class="text-lg text-gray-700 leading-relaxed mt-4">
-              Mein Ziel ist es, einen <strong>sicheren, einladenden Raum</strong> zu schaffen, in dem du dich während deiner Tattoo-Erfahrung entspannt und sicher fühlen kannst.
+              Mit dem Tätowieren habe ich die Möglichkeit gefunden, viele meiner Interessen zu verbinden: die Liebe zur Kunst, der direkte Austausch mit Menschen und die Arbeit am menschlichen Körper. Während meiner Ausbildung zur Physiotherapeutin habe ich ein tiefes Verständnis für Anatomie entwickelt. Das hilft mit dabei, jedes Tattoo mit einem Fokus auf Kunstfertigkeit und Komfort zu gestalten. Mein Ziel ist es, einen sicheren, einladenden Raum zu schaffen, in dem du dich während deiner Tattoo-Erfahrung entspannt und sicher fühlen kannst.
             </p>
           </div>
         </div>
@@ -40,10 +34,7 @@
     <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Ich freue mich von dir zu hören.
-        </p>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

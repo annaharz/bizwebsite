@@ -58,7 +58,7 @@
           <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
             <div class="h-96 overflow-hidden">
               <OptimizedImage 
-                src="collaboration/flyer.jpg" 
+                src="collaboration/Kunst2.jpg" 
                 alt="Kunst-Kollaboration" 
                 className="w-full h-auto object-cover object-top" 
                 :useBackgroundImage="false" 
@@ -114,7 +114,7 @@
         <p class="text-xl mb-8 max-w-2xl mx-auto">
           Bist du Künstler*in oder Galerist*in mit Interesse an einer Zusammenarbeit, melde dich gerne bei mir!
         </p>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>

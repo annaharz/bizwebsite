@@ -38,7 +38,7 @@
       <div class="container-custom">
         <div class="max-w-3xl mx-auto text-center">
           <p class="text-quote mx-auto border-l-0 md:border-l-4 pl-0 md:pl-6 text-xl">
-            Tätowieren als Kunstform ist meine <span class="text-emphasis">große Leidenschaft</span>. Dabei lege ich hohen Wert auf einen offenen Austausch. Es ist mir wichtig, dass wir uns die Zeit nehmen, die wir brauchen, um diese Erfahrung aus dem Trubel des Alltags heraus <strong>entschleunigt zu gestalten</strong>. Wenn du dich für mich als Künstlerin entscheidest, bedeutet das, einen sicheren Raum zu erleben, um den gesamten Prozess in vollen Zügen genießen zu können.
+            Tätowieren als Kunstform ist meine Leidenschaft. Dabei lege ich viel Wert auf einen offenen Austausch und dass wir uns die Zeit nehmen, um diese Erfahrung aus dem Trubel des Alltags heraus entschleunigt zu gestalten. Entscheidest du dich für mich als Künstlerin, erwartet dich ein sicherer Raum, in welchem du den gesamten Prozess bewusst erleben kannst.
           </p>
         </div>
       </div>
@@ -48,10 +48,6 @@
     <section class="section bg-gray-50">
       <div class="container-custom">
         <h2 class="section-title">Tattoo Portfolio</h2>
-        <p class="text-lead text-center max-w-3xl mx-auto mb-12">
-          Ich habe ein paar Beispiele ausgewählt, um dir ein Gefühl für meine Arbeiten zu vermitteln. Meine Priorität liegt jedoch darin, deinen individuellen Tattoo Wunsch zu verstehen und ihn gemeinsam umzusetzen.
-        </p>
-        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Portfolio Item 1 -->
           <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -111,10 +107,7 @@
     <section class="section bg-primary text-gray-800">
       <div class="container-custom text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Bereit für dein Tattoo?</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Ich freue mich von dir zu hören.
-        </p>
-        <router-link to="/contact" class="btn btn-accent text-white text-animate-on-hover">
+        <router-link to="/contact" class="btn btn-secondary text-animate-on-hover">
           Kontaktiere mich
         </router-link>
       </div>
